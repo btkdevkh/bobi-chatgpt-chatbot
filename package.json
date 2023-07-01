@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "bobi": "node app.js"
   },
   "keywords": [],
   "author": "",
