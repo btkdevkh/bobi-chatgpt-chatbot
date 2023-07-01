@@ -27,7 +27,7 @@ async function bobi() {
 
       const responseText = chatCompletion.data.choices[0].message.content
 
-      if (userInput.toLowerCase() === "exit") {
+      if (userInput.toLowerCase() === "q") {
         console.log(colors.green("Bobi: ") + responseText)
         return
       }
